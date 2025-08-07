@@ -1,4 +1,4 @@
-#!/bin/bash
+
 echo "Starting Deployment..."
 docker build -t flask-app .
 docker stop flask-container || true
